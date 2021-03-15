@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: url("../img/bg.png");
+}
+
+body .centered {
+  width: 25rem;
+  height: 15rem;
+  border: 2px solid black;
+  margin: 5rem auto;
+}
