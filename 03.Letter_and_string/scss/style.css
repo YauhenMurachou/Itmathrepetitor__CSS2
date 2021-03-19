@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: url("../img/bg.png");
+}
+body .container {
+  height: 100vh;
+  padding-top: 12.5vh;
+}
+body .container .centered {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  border: 2px solid black;
+  margin: auto;
+  vertical-align: middle;
+  margin-top: 12.5vh;
+  background: url("../img/block.png");
+}
