@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: url("../img/bg.png");
+  font-size: 2rem;
+.container{  
+  height: 100vh;
+  padding-top: 12.5vh;  
+  //для выравнивания по вертикали
+  .centered {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    margin-top: 12.5vh;
+    .title{
+      color: darkgreen;
+    }
+    .subtitle{
+      color: lawngreen;
+    }
+    .text__big_size{
+      font-size: 2.3rem;
+    }
+    }
+}
+}
