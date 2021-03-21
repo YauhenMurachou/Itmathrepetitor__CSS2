@@ -3,7 +3,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  list-style: none;
+  // list-style: none;
 }
 
 body {
@@ -21,16 +21,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
-    margin-top: 12.5vh;
-    .title{
-      color: darkgreen;
-    }
+    margin-top: 12.5vh;    
     .subtitle{
       color: lawngreen;
-    }
-    .text__big_size{
-      font-size: 2.3rem;
-    }
+    }    
     }
 }
 }
