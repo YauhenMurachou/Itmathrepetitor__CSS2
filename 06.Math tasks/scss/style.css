@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../img/bg.png");
+  font-size: 2rem;
+}
+body .container {
+  height: 100vh;
+  padding-top: 12.5vh;
+}
+body .container .centered {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: left;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  margin-top: 12.5vh;
+}
+body .container .centered .subtitle {
+  text-align: left;
+}
+body .container .centered .list__superscript, body .container .centered .list__subscript {
+  font-size: 1.5rem;
+  font-style: italic;
+}
